@@ -1,6 +1,8 @@
 import Header from "../components/Header"
 
-const MainLayout = (children) => {
+const MainLayout = (props) => {
+    const {children} = props
+
     return (
         <>
             <Header />
